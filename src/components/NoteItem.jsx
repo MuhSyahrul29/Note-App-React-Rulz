@@ -15,7 +15,7 @@ function NoteItem({ note, onRemoveNote, onCompleteNote , onEditNote }) {
             <div className={`  ${note.completed ? " drop-shadow-lg dark:drop-shadow-none " : " "}  flex items-center justify-between w-full ss:pr-2 xx:pr-2  `} >
                 <div className=" 2xl:pl-5  xx:pl-[18px] mm:pl-3.5 ss:pl-3 basis-3/4 max-w-[75%] flex items-start justify-around flex-col ">
                     <p className={`  ${note.completed ? "text-slate-500 line-through " : "text-zinc-900 dark:text-zinc-100 "} w-full xl:mt-4 xx:mt-3 mm:mt-2.5 ss:mt-2 2xl:text-lg xg:text-[17.5px] xx:text-[17.5px] mm:text-[16.6px] ss:text-[16px] font-bold  text-lg break-words text-wrap `} >{note.title}</p>
-                    <p className={`  ${note.completed ? "text-slate-500 line-through " : "text-zinc-400 dark:text-zinc-300 "} w-full 2xl:text-base xl:text-[15.5px] xg:text-[15px] xx:text-[14.5px] mm:text-[15px] ss:text-[14.5px] 2xl:mt-2 xl:mt-1.5 ss:mt-1  font-light  ss:pr-7 mm:pr-0 break-words text-wrap `}  >{note.description} </p>
+                    <p className={`  ${note.completed ? "text-slate-500 line-through " : "text-zinc-600 dark:text-zinc-200 "} w-full 2xl:text-base xl:text-[15.5px] xg:text-[15px] xx:text-[14.5px] mm:text-[15px] ss:text-[14.5px] 2xl:mt-2 xl:mt-1.5 ss:mt-1  font-light  ss:pr-7 mm:pr-0 break-words text-wrap `}  >{note.description} </p>
                 </div>
                 <div className="  flex items-center justify-around  pt-3 ss:basis-[22%] rr:basis-[20%] mm:basis-[19%] ww:basis-[23%] 2xl:basis-[21%] xl:gap-x-2.5 xg:gap-x-1.5 mm:gap-x-2 ss:gap-x-2   ">
                     <div
